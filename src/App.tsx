@@ -7,7 +7,8 @@ function App() {
 
   return (
     <>
-      <div><img src={logo} className="logo" alt="WWTBTFC logo" />
+      <div>
+        <img src={logo} className="logo" alt="WWTBTFC logo test" />
       </div>
       <h1>Game Placeholder</h1>
       <div className="card">
