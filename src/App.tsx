@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import logo from '/wwtbtfc.svg';
 import './App.css';
+import { Button } from './components/Button';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,9 +13,9 @@ function App() {
       </div>
       <h1>Game Placeholder</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+        <Button onClick={() => setCount((count) => count + 1)}>
           count is {count}
-        </button>
+        </Button>
       </div>
     </>
   );
