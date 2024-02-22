@@ -3,6 +3,9 @@ import StyledHomePage from './StyledHomePage';
 import logo from '/wwtbtfc.svg';
 import { useState } from 'react';
 
+/**
+ * Main home page for the app
+ */
 export const HomePage = () => {
   const [count1, setCount1] = useState(0);
   const [count2, setCount2] = useState(0);
