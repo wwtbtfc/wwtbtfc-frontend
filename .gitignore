@@ -25,3 +25,5 @@ dist-ssr
 
 #linting
 .eslintcache
+
+package-lock.json

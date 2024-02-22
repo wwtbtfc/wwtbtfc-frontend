@@ -9,6 +9,10 @@ const router = createBrowserRouter([
     path: '/',
     element: <HomePage />,
   },
+  {
+    path: '/how-to-play',
+    element: <HomePage />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
