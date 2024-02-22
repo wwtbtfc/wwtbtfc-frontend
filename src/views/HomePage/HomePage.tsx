@@ -1,14 +1,14 @@
-import { useState } from 'react';
+import { Button } from '@ui/components';
+import StyledHomePage from './StyledHomePage';
 import logo from '/wwtbtfc.svg';
-import './App.css';
-import { Button } from './components/Button';
+import { useState } from 'react';
 
-function App() {
+export const HomePage = () => {
   const [count1, setCount1] = useState(0);
   const [count2, setCount2] = useState(0);
 
   return (
-    <>
+    <StyledHomePage>
       <div>
         <img src={logo} className="logo" alt="WWTBTFC logo" />
       </div>
@@ -26,8 +26,6 @@ function App() {
           Dark Button clicked {count2} times
         </Button>
       </div>
-    </>
+    </StyledHomePage>
   );
-}
-
-export default App;
+};
