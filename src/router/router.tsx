@@ -1,5 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom';
 import { HomePage } from '@ui/views';
+import { Overview } from '@ui/views/HowToPlay/Overview';
 
 const router = createBrowserRouter([
   {
@@ -8,7 +9,7 @@ const router = createBrowserRouter([
   },
   {
     path: 'how-to-play',
-    element: <HowToPlayOverview />,
+    element: <Overview />,
     children: [
       {
         path: 'hosts',
