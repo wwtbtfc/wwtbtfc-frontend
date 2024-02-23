@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 90">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4d2f2e;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <path id="SafeZoneDark" class="cls-1" d="M35.42,0L0,13.06l.29,30.48s1.45,15.68,6.1,23.23c4.64,7.55,14.23,16.26,17.71,18.29,3.49,2.03,12.19,4.94,12.19,4.94,0,0,5.23-1.74,8.71-3.2,3.49-1.45,6.68-4.94,14.81-11.9,8.13-6.97,12.19-28.16,12.19-28.16V13.06L35.42,0ZM56.51,52.85h-12.66v12.66h-15.7v-12.66h-12.66v-15.7h12.66v-12.66h15.7v12.66h12.66v15.7Z"/>
+  </g>
+</svg>

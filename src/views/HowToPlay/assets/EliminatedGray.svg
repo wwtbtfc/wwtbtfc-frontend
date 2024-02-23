@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116.31 120.14">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #999;
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #707070;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="EliminatedGray">
+      <g id="UserIcon">
+        <circle class="cls-2" cx="56.62" cy="19.25" r="19.25"/>
+        <path class="cls-1" d="M102.46,68.84v10.19s-90,0-90,0v-10.19c7.14-12.8,24.6-21.84,45-21.84s37.86,9.04,45,21.84Z"/>
+      </g>
+      <line class="cls-3" x1="5" y1="8.83" x2="111.31" y2="115.14"/>
+      <line class="cls-3" x1="111.31" y1="8.83" x2="5" y2="115.14"/>
+    </g>
+  </g>
+</svg>

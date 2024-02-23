@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4d2f2e;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <path id="DoubleDipDark" class="cls-1" d="M45,0C20.15,0,0,20.15,0,45s20.15,45,45,45,45-20.15,45-45S69.85,0,45,0ZM7.71,32.32h12.97l3.89-4.47h40.31l3.68,4.47h13.18v2.54h-12.86l-4.01,4.47H24.57l-3.78-4.47H7.71v-2.54ZM69.43,57.68l-4.01,4.47H25.11l-3.78-4.47h-13.08v-2.54h12.97l3.89-4.47h40.31l3.68,4.47h13.18v2.54h-12.86Z"/>
+  </g>
+</svg>
