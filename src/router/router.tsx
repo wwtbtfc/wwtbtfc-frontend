@@ -14,52 +14,70 @@ const router = createBrowserRouter([
         element: <h1>How to play</h1>,
       },
       {
-        path: 'hosts-1',
-        element: <h1>hosts page 1</h1>,
+        path: 'hosts',
+        element: <HostsLayout />,
+        children: [
+          {
+            path: '1',
+            element: <HostsPage1 />,
+          },
+          {
+            path: '2',
+            element: <HostsPage2 />,
+          },
+          {
+            path: '3',
+            element: <HostsPage3 />,
+          },
+        ],
       },
       {
-        path: 'hosts-2',
-        element: <h1>hosts page 2</h1>,
-      },
-      {
-        path: 'hosts-3',
-        element: <h1>hosts page 3</h1>,
-      },
-      {
-        path: 'contestants-1',
-        element: <h1>contestants 1</h1>,
-      },
-      {
-        path: 'contestants-2',
-        element: <h1>contestants 2</h1>,
-      },
-      {
-        path: 'contestants-3',
-        element: <h1>contestants 3</h1>,
+        path: 'contestants',
+        element: <ContestantsLayout />,
+        children: [
+          {
+            path: '1',
+            element: <ContestantsPage1 />,
+          },
+          {
+            path: '2',
+            element: <ContestantsPage2 />,
+          },
+          {
+            path: '3',
+            element: <ContestantsPage3 />,
+          },
+        ],
       },
       {
         path: 'lifelines',
         element: <h1>lifelines</h1>,
       },
       {
-        path: 'scoring-1',
-        element: <div>scoring 1</div>,
-      },
-      {
-        path: 'scoring-2',
-        element: <div>scoring 2</div>,
-      },
-      {
-        path: 'scoring-3',
-        element: <div>scoring 3</div>,
-      },
-      {
-        path: 'scoring-4',
-        element: <div>scoring 4</div>,
-      },
-      {
-        path: 'scoring-5',
-        element: <div>scoring 5</div>,
+        path: 'scoring',
+        element: <ScoringLayout />,
+        children: [
+          {
+            path: '1',
+            element: <ScoringPage1 />,
+          },
+          {
+            path: '2',
+            element: <ScoringPage2 />,
+          },
+          {
+            path: '3',
+            element: <ScoringPage3 />,
+          },
+          {
+            path: '4',
+            element: <ScoringPage4 />,
+          },
+          {
+            path: '5',
+            element: <ScoringPage5 />,
+          },
+        ],
       },
     ],
   },
