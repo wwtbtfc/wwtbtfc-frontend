@@ -1,7 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom';
 import { HomePage } from '@ui/views';
-import { Overview } from '@ui/views/HowToPlay/Overview';
-import { Lifelines } from '@ui/views/HowToPlay/Lifelines';
+import { Overview, Lifelines } from '@ui/views/HowToPlay';
 
 const router = createBrowserRouter([
   {
