@@ -7,55 +7,55 @@ const router = createBrowserRouter([
     element: <HomePage />,
   },
   {
-    path: '/how-to-play',
+    path: '/how-to-play/',
     element: <div>how to play</div>,
     children: [
       {
-        path: '/how-to-play/hosts-1',
+        path: 'hosts-1',
         element: <h1>hosts page 1</h1>,
       },
       {
-        path: '/how-to-play/hosts-2',
+        path: 'hosts-2',
         element: <h1>hosts page 2</h1>,
       },
       {
-        path: '/how-to-play/hosts-3',
+        path: 'hosts-3',
         element: <h1>hosts page 3</h1>,
       },
       {
-        path: '/how-to-play/contestants-1',
+        path: 'contestants-1',
         element: <h1>contestants 1</h1>,
       },
       {
-        path: '/how-to-play/contestants-2',
+        path: 'contestants-2',
         element: <h1>contestants 2</h1>,
       },
       {
-        path: '/how-to-play/contestants-3',
+        path: 'contestants-3',
         element: <h1>contestants 3</h1>,
       },
       {
-        path: '/how-to-play/lifelines',
+        path: 'lifelines',
         element: <h1>lifelines</h1>,
       },
       {
-        path: '/how-to-play/scoring-1',
+        path: 'scoring-1',
         element: <div>scoring 1</div>,
       },
       {
-        path: '/how-to-play/scoring-2',
+        path: 'scoring-2',
         element: <div>scoring 2</div>,
       },
       {
-        path: '/how-to-play/scoring-3',
+        path: 'scoring-3',
         element: <div>scoring 3</div>,
       },
       {
-        path: '/how-to-play/scoring-4',
+        path: 'scoring-4',
         element: <div>scoring 4</div>,
       },
       {
-        path: '/how-to-play/scoring-5',
+        path: 'scoring-5',
         element: <div>scoring 5</div>,
       },
     ],
