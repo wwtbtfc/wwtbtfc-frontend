@@ -8,11 +8,8 @@ const router = createBrowserRouter([
   },
   {
     path: 'how-to-play',
+    element: <HowToPlayOverview />,
     children: [
-      {
-        path: 'overview',
-        element: <h1>How to play</h1>,
-      },
       {
         path: 'hosts',
         element: <HostsLayout />,
