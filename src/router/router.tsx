@@ -7,9 +7,12 @@ const router = createBrowserRouter([
     element: <HomePage />,
   },
   {
-    path: '/how-to-play/',
-    element: <div>how to play</div>,
+    path: '/how-to-play',
     children: [
+      {
+        path: 'overview',
+        element: <h1>How to play</h1>,
+      },
       {
         path: 'hosts-1',
         element: <h1>hosts page 1</h1>,
