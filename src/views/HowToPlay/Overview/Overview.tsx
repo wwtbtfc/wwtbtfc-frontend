@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router';
+import { Outlet, useNavigate } from 'react-router';
 
 export const Overview = () => {
   const navigate = useNavigate();
@@ -12,6 +12,7 @@ export const Overview = () => {
       >
         back to home
       </div>
+      <Outlet />
     </>
   );
 };
