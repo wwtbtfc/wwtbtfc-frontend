@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72.77 93">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        stroke-width: 3px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+        stroke: #4d2f2e;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-3 {
+        stroke-linecap: round;
+      }
+
+      .cls-3 {
+        stroke-width: 2px;
+      }
+
+      .cls-4 {
+        fill: #4d2f2e;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="GamesDark">
+      <rect class="cls-2" x="1.5" y="1.5" width="69.77" height="90" rx="6.31" ry="6.31"/>
+      <rect class="cls-2" x="7.88" y="8.37" width="57" height="35.65" rx="4.53" ry="4.53"/>
+      <line class="cls-1" x1="35.36" y1="15.49" x2="21.22" y2="34.17"/>
+      <line class="cls-1" x1="49.76" y1="15.99" x2="35.62" y2="34.68"/>
+      <circle class="cls-1" cx="18.76" cy="67.24" r="12.31"/>
+      <g>
+        <line class="cls-3" x1="18.76" y1="60.66" x2="18.76" y2="73.83"/>
+        <line class="cls-3" x1="12.18" y1="67.24" x2="25.34" y2="67.24"/>
+      </g>
+      <line class="cls-1" x1="25.77" y1="49.83" x2="32.29" y2="49.83"/>
+      <line class="cls-1" x1="40.35" y1="49.83" x2="46.53" y2="49.83"/>
+      <circle class="cls-4" cx="55.12" cy="60.25" r="4.92"/>
+      <circle class="cls-4" cx="55.12" cy="77.29" r="4.92"/>
+      <circle class="cls-4" cx="46.79" cy="68.96" r="4.92"/>
+      <circle class="cls-4" cx="63.84" cy="68.96" r="4.92"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 198 235.31">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #4d2f2e;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill: #4d2f2e;
+      }
+
+      .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="Rules_Host">
+      <g id="UserIcon">
+        <circle class="cls-4" cx="97.5" cy="19.25" r="19.25"/>
+        <path class="cls-3" d="M142.5,60.8l-10.31,11.2H62.81s-10.31-11.2-10.31-11.2c7.14-9.26,24.6-15.8,45-15.8s37.86,6.54,45,15.8Z"/>
+      </g>
+      <polygon id="Podium" class="cls-3" points="125.4 103.3 117.62 220.02 130.5 235.31 67.5 235.31 80.39 220.14 72.6 103.3 36 103.3 0 76.3 198 76.3 162 103.3 125.4 103.3"/>
+      <g id="Microphone">
+        <path class="cls-1" d="M171.43,72.67s1.13-15.81-4.14-22.21-16.56-12.05-16.56-12.05"/>
+        <path class="cls-2" d="M153.55,39.86s-.03.04-.04.06c-1.04,1.46-4.45.96-7.67-1.12-3.28-2.12-5.13-5.07-4.15-6.6.99-1.53,4.44-1.05,7.72,1.06,3.27,2.12,5.13,5.07,4.14,6.6Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
