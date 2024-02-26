@@ -1,3 +1,5 @@
+// Let's add to or change this Type as we need
+
 export type AppProps = {
   message?: string;
   title?: string;

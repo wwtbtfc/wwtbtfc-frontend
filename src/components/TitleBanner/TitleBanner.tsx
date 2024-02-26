@@ -11,8 +11,8 @@ export const TitleBanner = (props: AppProps) => {
     <>
       <StyledTitleBanner>
         <h2 className="title">{props.title}</h2>
-        <img src={userIcon} />
         <h5 className="user">username</h5>
+        <img src={userIcon} />
       </StyledTitleBanner>
     </>
   );
