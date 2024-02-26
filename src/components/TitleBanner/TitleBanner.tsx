@@ -1,5 +1,4 @@
 import StyledTitleBanner from './StyledTitleBanner';
-import { AppProps } from '@ui/Types/AppProps';
 import userIcon from '../../assets/UserIcon.svg';
 import { BannerBar } from './BannerBar';
 
@@ -7,7 +6,9 @@ import { BannerBar } from './BannerBar';
  * Title Banner component
  * @param {string} props.title - pass the desired title to the banner
  */
-export const TitleBanner = (props: AppProps) => {
+
+type BannerProps = { title: string };
+export const TitleBanner = (props: BannerProps) => {
   return (
     <>
       <StyledTitleBanner>
