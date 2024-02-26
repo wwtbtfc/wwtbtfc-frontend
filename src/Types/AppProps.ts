@@ -1,25 +1,25 @@
 export type AppProps = {
-  message: string;
-  title: string;
-  count: number;
-  disabled: boolean;
+  message?: string;
+  title?: string;
+  count?: number;
+  disabled?: boolean;
   /** array of a type! */
-  names: string[];
+  names?: string[];
   /** string literals to specify exact string values, with a union type to join them together */
-  status: 'waiting' | 'success';
+  status?: 'waiting' | 'success';
   /** an object with known properties (but could have more at runtime) */
-  obj: {
+  obj?: {
     id: string;
     title: string;
   };
   /** array of objects! (common) */
-  objArr: {
+  objArr?: {
     id: string;
     title: string;
   }[];
   /** any non-primitive value - can't access any properties (NOT COMMON but useful as placeholder) */
-  obj2: object;
+  obj2?: object;
   /** an interface with no required properties - (NOT COMMON, except for things like `React.Component<{}, State>`) */
-  obj3: object;
+  obj3?: object;
   /** a dict object with any number of properties of the same type */
 };

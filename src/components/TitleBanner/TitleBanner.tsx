@@ -1,5 +1,6 @@
 import StyledTitleBanner from './StyledTitleBanner';
 import { AppProps } from '@ui/Types/AppProps';
+import userIcon from '../../assets/UserIcon.svg';
 
 /**
  * Title Banner component
@@ -10,7 +11,7 @@ export const TitleBanner = (props: AppProps) => {
     <>
       <StyledTitleBanner>
         <h2 className="title">{props.title}</h2>
-        <img src="../../assets/UserIcon.svg" />
+        <img src={userIcon} />
         <h5 className="user">username</h5>
       </StyledTitleBanner>
     </>
