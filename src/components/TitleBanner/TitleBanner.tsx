@@ -1,6 +1,5 @@
 import StyledTitleBanner from './StyledTitleBanner';
 import userIcon from '../../assets/UserIcon.svg';
-import { BannerBar } from './BannerBar';
 
 /**
  * Title Banner component
@@ -16,7 +15,6 @@ export const TitleBanner = (props: BannerProps) => {
         <h5 className="user">username</h5>
         <img src={userIcon} />
       </StyledTitleBanner>
-      <BannerBar></BannerBar>
     </>
   );
 };
