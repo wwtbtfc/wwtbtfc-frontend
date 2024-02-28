@@ -8,6 +8,7 @@ const StyledTitleBanner = styled.header`
   justify-content: center;
   height: 90px;
   border-bottom: 2px solid #4d2f2e;
+  min-width: 560px;
 
   .title {
     font-size: 3em;
@@ -15,24 +16,25 @@ const StyledTitleBanner = styled.header`
     padding: 1.5em;
     margin: 0 auto;
     position: relative;
-    left: 5%;
+    left: 1.2em;
     min-width: 200px;
+  }
+  .user-container {
+    display: flex;
+    min-width: 120px;
   }
   .user {
     font-family: Arial;
     position: relative;
-    overflow: hidden;
-    flex-shrink: 0;
     font-size: 1.5em;
     font-weight: 100;
-    right: 2em;
+    right: 3em;
     display: inline block;
   }
   img {
     position: relative;
-    flex-shrink: 0;
-    right: 15px;
-    max-width: 35px;
+    right: 3em;
+    max-width: 2.5em;
     height: auto;
   }
 `;

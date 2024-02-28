@@ -12,8 +12,10 @@ export const TitleBanner = (props: BannerProps) => {
     <>
       <StyledTitleBanner>
         <h2 className="title">{props.title}</h2>
-        <h5 className="user">username</h5>
-        <img src={userIcon} />
+        <div className="user-container">
+          <h5 className="user">username</h5>
+          <img src={userIcon} />
+        </div>
       </StyledTitleBanner>
     </>
   );
