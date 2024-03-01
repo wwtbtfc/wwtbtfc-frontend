@@ -16,6 +16,5 @@ export const TitleBanner = (props: BannerProps) => {
           <img src={userIcon} />
         </div>
       </StyledTitleBanner>
-    </>
   );
 };
