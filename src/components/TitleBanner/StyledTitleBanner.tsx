@@ -18,7 +18,7 @@ text-align: center;
     gap: 10px;
   }
   .user {
-    font-family: Arial;
+    font-family: Poppins, Arial, sans-serif;
     position: relative;
     font-size: 1.5em;
     font-weight: 100;
