@@ -6,7 +6,6 @@ const StyledTitleBanner = styled.header`
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 90px;
   border-bottom: 2px solid #4d2f2e;
   min-width: 560px;
 
