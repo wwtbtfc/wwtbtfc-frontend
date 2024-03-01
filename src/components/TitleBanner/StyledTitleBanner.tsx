@@ -23,7 +23,7 @@ text-align: center;
     font-weight: 100;
   }
   img {
-    max-width: 2.5em;
+    width: 2.5em;
     height: auto;
   }
 `;
