@@ -12,7 +12,6 @@ const StyledTitleBanner = styled.header`
     font-size: 3em;
     margin: 0;
 text-align: center;
-    min-width: 200px;
   }
   .user-container {
     display: flex;
