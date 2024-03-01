@@ -11,11 +11,13 @@ const StyledTitleBanner = styled.header`
   .title {
     font-size: 3em;
     margin: 0;
-text-align: center;
+    text-align: center;
   }
   .user-container {
     display: flex;
     gap: 10px;
+    position: absolute;
+    right: 5%;
   }
   .user {
     font-family: Poppins, Arial, sans-serif;
