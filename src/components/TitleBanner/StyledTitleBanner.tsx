@@ -11,7 +11,6 @@ const StyledTitleBanner = styled.header`
   .title {
     font-size: 3em;
     margin: 0;
-    position: relative;
 text-align: center;
     min-width: 200px;
   }
