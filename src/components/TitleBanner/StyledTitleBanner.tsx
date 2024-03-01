@@ -12,7 +12,7 @@ const StyledTitleBanner = styled.header`
   .title {
     font-size: 3em;
     flex-shrink: 0;
-    margin: 0 auto;
+    margin: 0;
     position: relative;
     left: 1.2em;
     min-width: 200px;
