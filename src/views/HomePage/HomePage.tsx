@@ -13,7 +13,7 @@ export const HomePage = () => {
 
   return (
     <>
-      <TitleBanner title="Home Page"></TitleBanner>
+      <TitleBanner title="Home Page" />
       <StyledHomePage>
         <div>
           <img src={logo} className="logo" alt="WWTBTFC logo" />
