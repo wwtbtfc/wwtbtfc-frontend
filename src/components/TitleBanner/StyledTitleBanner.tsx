@@ -3,7 +3,6 @@ import styled from 'styled-components';
 const StyledTitleBanner = styled.header`
   margin: 0 auto;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
   border-bottom: 2px solid #4d2f2e;
