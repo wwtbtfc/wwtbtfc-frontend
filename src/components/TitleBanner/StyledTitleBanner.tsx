@@ -14,7 +14,7 @@ const StyledTitleBanner = styled.header`
     flex-shrink: 0;
     margin: 0;
     position: relative;
-    left: 1.2em;
+text-align: center;
     min-width: 200px;
   }
   .user-container {
