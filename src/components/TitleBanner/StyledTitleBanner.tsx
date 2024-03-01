@@ -23,7 +23,6 @@ text-align: center;
     font-weight: 100;
   }
   img {
-    right: 3em;
     max-width: 2.5em;
     height: auto;
   }
