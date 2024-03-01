@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108.4 40.97">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #dfdac4;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <path id="BackLight" class="cls-1" d="M108.22,21.94c.26.59.18,4.44.12,5.09-.95,9.36-29.73,14.45-39.2,13.5-8.53-.85,20.45-1.85,21.18-13.59H26.12l4.42,11.23c.78,1.75-1.13,3.48-2.79,2.52L.99,21.99c-1.32-.76-1.32-2.67,0-3.42L27.94.27c1.66-.96,3.57.77,2.79,2.52l-5.39,11.95h59.91c10.19,0,20.13.62,22.98,7.2Z"/>
+  </g>
+</svg>
