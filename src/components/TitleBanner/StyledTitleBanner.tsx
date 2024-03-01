@@ -15,7 +15,7 @@ text-align: center;
   }
   .user-container {
     display: flex;
-    min-width: 120px;
+    gap: 10px;
   }
   .user {
     font-family: Arial;
