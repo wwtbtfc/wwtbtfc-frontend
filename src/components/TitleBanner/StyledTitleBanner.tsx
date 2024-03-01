@@ -19,7 +19,6 @@ text-align: center;
   }
   .user {
     font-family: Poppins, Arial, sans-serif;
-    position: relative;
     font-size: 1.5em;
     font-weight: 100;
     right: 3em;
