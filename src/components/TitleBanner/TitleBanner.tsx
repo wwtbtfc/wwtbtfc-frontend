@@ -1,12 +1,12 @@
 import StyledTitleBanner from './StyledTitleBanner';
 import userIcon from '../../assets/UserIcon.svg';
 
+type BannerProps = { title: string };
+
 /**
  * Title Banner component
  * @param {string} props.title - pass the desired title to the banner
  */
-
-type BannerProps = { title: string };
 export const TitleBanner = (props: BannerProps) => {
   return (
       <StyledTitleBanner>
