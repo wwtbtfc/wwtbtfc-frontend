@@ -21,7 +21,6 @@ text-align: center;
     font-family: Poppins, Arial, sans-serif;
     font-size: 1.5em;
     font-weight: 100;
-    display: inline block;
   }
   img {
     position: relative;
