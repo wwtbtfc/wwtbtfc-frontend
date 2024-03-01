@@ -14,8 +14,7 @@ export const StyledBackButton = styled(Button)`
   background-position-x: 0.5em;
   padding-left: 2.5em;
   padding-right: 1em;
-  position: relative;
   margin-top: 5vh;
-  left: 3vw;
+  margin-left: 3vw;
   cursor: pointer;
 `;
