@@ -4,8 +4,8 @@ import { Button } from '..';
 export const KeepReading = () => {
   return (
     <StyledKeepReading>
-      <div>Keep Reading About: </div>
-      <Button>This button</Button>
+      <div className="heading">Keep Reading About: </div>
+      <Button className="button">This button</Button>
     </StyledKeepReading>
   );
 };

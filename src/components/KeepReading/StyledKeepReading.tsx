@@ -1,4 +1,9 @@
 import styled from 'styled-components';
 export const StyledKeepReading = styled.div`
-  font-size: 120px;
+  .heading {
+    font-size: 2em;
+  }
+  .button {
+    border-radius: 10px;
+  }
 `;
