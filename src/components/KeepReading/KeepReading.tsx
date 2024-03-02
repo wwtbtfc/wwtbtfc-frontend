@@ -12,6 +12,7 @@ export const KeepReading = () => {
     path: string;
     title: string;
   }
+  // All buttons, text and path, that are possible
   const possibleButtons: possibleButtons[] = [
     { path: 'how-to-play', title: 'Overview' },
     { path: 'hosts', title: 'Hosts' },
@@ -20,6 +21,7 @@ export const KeepReading = () => {
     { path: 'lifelines', title: 'Lifelines' },
   ];
 
+  // navigates to the page corresponding to the button clicked
   const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
     const button: possibleButtons | undefined = possibleButtons.find(
       (button) => {
@@ -37,7 +39,7 @@ export const KeepReading = () => {
 
   const ButtonsMap = () => {
     return possibleButtons.map((button) => {
-      // if on the overview page, return all buttons except overview
+      // if on the Overview page, return all buttons except overview
       if (!url) {
         if (button.path !== 'how-to-play') {
           return (
@@ -46,7 +48,7 @@ export const KeepReading = () => {
             </Button>
           );
         }
-        // if not on overview page, return all buttons except current page
+        // if not on the Overview page, return all buttons except current page
       } else if (!url.includes(button.path)) {
         return (
           <Button key={button.path} onClick={handleClick} className="button">
