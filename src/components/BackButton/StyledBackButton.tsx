@@ -1,10 +1,10 @@
 import { Button } from '..';
 import styled from 'styled-components';
-import BackLight from '../../views/HowToPlay/assets/BackLight.svg';
+import BackLight from './assets/BackLight.svg';
 import colors from '@ui/styles/colors';
 
 export const StyledBackButton = styled(Button)`
-  border-radius: 5px;
+  border-radius: 10px;
   color: ${colors.tan};
   font-size: 20px;
   background-image: url(${BackLight});
@@ -14,7 +14,5 @@ export const StyledBackButton = styled(Button)`
   background-position-x: 0.5em;
   padding-left: 2.5em;
   padding-right: 1em;
-  margin-top: 5vh;
-  margin-left: 3vw;
   cursor: pointer;
 `;
