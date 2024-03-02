@@ -1,6 +1,7 @@
 import { Outlet, useNavigate } from 'react-router';
 import { TitleBanner } from '@ui/components/TitleBanner';
 import { BackButton } from '@ui/components';
+import { KeepReading } from '@ui/components';
 
 export const Overview = () => {
   const navigate = useNavigate();
@@ -16,6 +17,7 @@ export const Overview = () => {
         back to home
       </div>
       <Outlet />
+      <KeepReading></KeepReading>
       <BackButton />
     </>
   );
