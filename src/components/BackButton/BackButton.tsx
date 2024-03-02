@@ -1,8 +1,9 @@
 import { StyledBackButton } from './StyledBackButton';
-import { ButtonProps } from '../Button/Button';
+import { ButtonHTMLAttributes } from 'react';
 import { useNavigate } from 'react-router';
 
-export interface BackButtonProps extends ButtonProps {
+export interface BackButtonProps
+  extends ButtonHTMLAttributes<HTMLButtonElement> {
   text?: string;
   path?: string;
 }
