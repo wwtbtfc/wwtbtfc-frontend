@@ -1,7 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom';
 import { HomePage } from '@ui/views';
-import { Overview, Lifelines } from '@ui/views/HowToPlay';
-import { KeepReading } from '@ui/components';
+import { Overview, Lifelines, HowToPlay } from '@ui/views/HowToPlay';
 
 const router = createBrowserRouter([
   {
@@ -9,42 +8,43 @@ const router = createBrowserRouter([
     element: <HomePage />,
   },
   {
-    path: 'how-to-play',
-    element: <Overview />,
+    // Home is a Layout route (https://reactrouter.com/en/main/start/concepts#layout-routes), it has no pathname, but renders its children along with a given layout. This way, we can have unique path names for the Keep Reading navigation, and no blank how-to-play page. Each of the children have a unique pathname: localhost:5137/hosts, for example.
+    element: <HowToPlay />,
     children: [
+      { path: 'overview', element: <Overview /> },
       {
         path: 'hosts',
-        element: <div />,
+        element: <div className="hosts" />,
         children: [
           {
             path: '1',
-            element: <KeepReading />,
+            element: <div />,
           },
           {
             path: '2',
-            element: <KeepReading />,
+            element: <div />,
           },
           {
             path: '3',
-            element: <KeepReading />,
+            element: <div />,
           },
         ],
       },
       {
         path: 'contestants',
-        element: <KeepReading />,
+        element: <div />,
         children: [
           {
             path: '1',
-            element: <KeepReading />,
+            element: <div />,
           },
           {
             path: '2',
-            element: <KeepReading />,
+            element: <div />,
           },
           {
             path: '3',
-            element: <KeepReading />,
+            element: <div />,
           },
         ],
       },
@@ -58,23 +58,23 @@ const router = createBrowserRouter([
         children: [
           {
             path: '1',
-            element: <KeepReading />,
+            element: <div />,
           },
           {
             path: '2',
-            element: <KeepReading />,
+            element: <div />,
           },
           {
             path: '3',
-            element: <KeepReading />,
+            element: <div />,
           },
           {
             path: '4',
-            element: <KeepReading />,
+            element: <div />,
           },
           {
             path: '5',
-            element: <KeepReading />,
+            element: <div />,
           },
         ],
       },
