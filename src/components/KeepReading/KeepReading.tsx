@@ -1,4 +1,3 @@
-'use client';
 import { StyledKeepReading } from './StyledKeepReading';
 import { Button } from '..';
 import { useNavigate } from 'react-router';

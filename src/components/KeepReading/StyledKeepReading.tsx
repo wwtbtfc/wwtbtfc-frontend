@@ -1,8 +1,8 @@
 import styled from 'styled-components';
+import colors from '@ui/styles/colors';
 export const StyledKeepReading = styled.div`
   display: flex;
-  border-top: 2px dotted gray;
-  position: relative;
+  border-top: 2px dotted ${colors.lightGray};
   padding-top: 1.5em;
   .heading {
     font-size: 2em;
