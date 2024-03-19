@@ -1,1 +1,1 @@
-export { HowToPlay } from './Home';
+export { Home } from './Home';

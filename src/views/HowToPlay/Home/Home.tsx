@@ -1,7 +1,7 @@
 import { KeepReading, BackButton } from '@ui/components';
 import { Outlet } from 'react-router';
 
-export const HowToPlay = () => {
+export const Home = () => {
   return (
     <>
       <Outlet />

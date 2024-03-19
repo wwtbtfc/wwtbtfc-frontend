@@ -2,8 +2,6 @@ import { StyledKeepReading } from './StyledKeepReading';
 import { Button } from '..';
 import { useNavigate } from 'react-router';
 
-// Navigation component for How To Play section. Creates four buttons, one for each How To Play section, except the current section. No Parameters. Uses URL to identify current section.
-
 interface keepReadingProps {
   buttons: possibleButtons[];
 }

@@ -1,6 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom';
 import { HomePage } from '@ui/views';
-import { Overview, Lifelines, HowToPlay } from '@ui/views/HowToPlay';
+import { Overview, Lifelines, Home } from '@ui/views/HowToPlay';
 
 const router = createBrowserRouter([
   {
@@ -9,7 +9,7 @@ const router = createBrowserRouter([
   },
   {
     // Home is a Layout route (https://reactrouter.com/en/main/start/concepts#layout-routes), it has no pathname, but renders its children along with a given layout. This way, we can have unique path names for the Keep Reading navigation, and no blank how-to-play page. Each of the children have a unique pathname: localhost:5137/hosts, for example.
-    element: <HowToPlay />,
+    element: <Home />,
     children: [
       { path: 'overview', element: <Overview /> },
       {
