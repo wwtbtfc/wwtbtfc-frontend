@@ -1,6 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom';
 import { HomePage } from '@ui/views';
-import { Overview, Lifelines } from '@ui/views/HowToPlay';
+import { Overview, Lifelines, Home } from '@ui/views/HowToPlay';
 
 const router = createBrowserRouter([
   {
@@ -8,75 +8,76 @@ const router = createBrowserRouter([
     element: <HomePage />,
   },
   {
-    path: 'how-to-play',
-    element: <Overview />,
+    // Home is a Layout route (https://reactrouter.com/en/main/start/concepts#layout-routes), it has no pathname, but renders its children along with a given layout. This way, we can have unique path names for the Keep Reading navigation, and no blank how-to-play page. Each of the children have a unique pathname: localhost:5137/hosts, for example.
+    element: <Home />,
     children: [
-      // {
-      //   path: 'hosts',
-      //   element: <HostsLayout />,
-      //   children: [
-      //     {
-      //       path: '1',
-      //       element: <HostsPage1 />,
-      //     },
-      //     {
-      //       path: '2',
-      //       element: <HostsPage2 />,
-      //     },
-      //     {
-      //       path: '3',
-      //       element: <HostsPage3 />,
-      //     },
-      //   ],
-      // },
-      // {
-      //   path: 'contestants',
-      //   element: <ContestantsLayout />,
-      //   children: [
-      //     {
-      //       path: '1',
-      //       element: <ContestantsPage1 />,
-      //     },
-      //     {
-      //       path: '2',
-      //       element: <ContestantsPage2 />,
-      //     },
-      //     {
-      //       path: '3',
-      //       element: <ContestantsPage3 />,
-      //     },
-      //   ],
-      // },
+      { path: 'overview', element: <Overview /> },
+      {
+        path: 'hosts',
+        element: <div className="hosts" />,
+        children: [
+          {
+            path: '1',
+            element: <div />,
+          },
+          {
+            path: '2',
+            element: <div />,
+          },
+          {
+            path: '3',
+            element: <div />,
+          },
+        ],
+      },
+      {
+        path: 'contestants',
+        element: <div />,
+        children: [
+          {
+            path: '1',
+            element: <div />,
+          },
+          {
+            path: '2',
+            element: <div />,
+          },
+          {
+            path: '3',
+            element: <div />,
+          },
+        ],
+      },
       {
         path: 'lifelines',
         element: <Lifelines />,
       },
-      // {
-      //   path: 'scoring',
-      //   element: <ScoringLayout />,
-      //   children: [
-      //     {
-      //       path: '1',
-      //       element: <ScoringPage1 />,
-      //     },
-      //     {
-      //       path: '2',
-      //       element: <ScoringPage2 />,
-      //     },
-      //     {
-      //       path: '3',
-      //       element: <ScoringPage3 />,
-      //     },
-      //     {
-      //       path: '4',
-      //       element: <ScoringPage4 />,
-      //     },
-      //     {
-      //       path: '5',
-      //       element: <ScoringPage5 />,
-      //     },
-      //   ],
-      // },
+      {
+        path: 'scoring',
+        element: <div />,
+        children: [
+          {
+            path: '1',
+            element: <div />,
+          },
+          {
+            path: '2',
+            element: <div />,
+          },
+          {
+            path: '3',
+            element: <div />,
+          },
+          {
+            path: '4',
+            element: <div />,
+          },
+          {
+            path: '5',
+            element: <div />,
+          },
+        ],
+      },
     ],
   },
 ]);
