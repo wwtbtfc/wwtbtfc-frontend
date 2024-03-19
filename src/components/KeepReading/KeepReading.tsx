@@ -33,15 +33,11 @@ export const KeepReading = ({ buttons }: keepReadingProps) => {
     <StyledKeepReading>
       <div className="heading">Keep Reading About: </div>
       <div className="button-container">
-        {buttons.map((button) => {
+        {buttons.map((button, index) => {
           // if on the Overview page, return all buttons except overview
           if (!url.includes(button.path)) {
             return (
-              <Button
-                key={button.path}
-                onClick={handleClick}
-                className="button"
-              >
+              <Button key={index} onClick={handleClick} className="button">
                 {button.title}
               </Button>
             );
