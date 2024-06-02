@@ -2,7 +2,9 @@ import styled from 'styled-components';
 import colors from '@ui/styles/colors';
 import { ButtonProps } from './Button';
 
-const StyledButton = styled.button<ButtonProps>`
+const StyledButton = styled.button.withConfig({
+  shouldForwardProp: (prop) => prop !== 'variant',
+})<ButtonProps>`
   border: 3px solid ${colors.brown};
   padding: 10px 15px;
   border-radius: 30px;
