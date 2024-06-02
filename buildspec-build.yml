@@ -9,4 +9,5 @@ phases:
       - yarn install --frozen-lockfile
   build:
     commands:
-      - yarn tsc && vite build
+      - yarn tsc
+      - yarn vite build
