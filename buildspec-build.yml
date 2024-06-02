@@ -1,6 +1,11 @@
 version: 0.2
 
 phases:
+  install:
+    runtime-versions:
+      nodejs: 18.x
+    commands:
+      - npm install
   build:
     commands:
-      - echo buildphase2
+      - tsc && vite build
