@@ -2,7 +2,7 @@ import { Button } from '@ui/components';
 import StyledHomePage from './StyledHomePage';
 import logo from '/wwtbtfc.svg';
 import { useState } from 'react';
-import { TitleBanner } from '@ui/components/TitleBanner';
+import { NavigationButton } from '@ui/components/NavigationButton';
 
 /**
  * Main home page for the app
@@ -13,7 +13,6 @@ export const HomePage = () => {
 
   return (
     <>
-      <TitleBanner title="Home Page" />
       <StyledHomePage>
         <div>
           <img src={logo} className="logo" alt="WWTBTFC logo" />
@@ -32,6 +31,7 @@ export const HomePage = () => {
             Dark Button clicked {count2} times
           </Button>
         </div>
+        <NavigationButton buttonText="Hello" buttonUrl="/overview" />
       </StyledHomePage>
     </>
   );
