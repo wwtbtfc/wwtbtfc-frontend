@@ -1,7 +1,6 @@
-import { ButtonHTMLAttributes } from 'react';
-// import StyledNavigationButton from './StyledNavigationButton';
+import { ButtonHTMLAttributes, useState } from 'react';
 import { useNavigate } from 'react-router';
-import img from './assets/NavButton.png';
+import { NavigationButtonImage } from './NavButtonImage';
 
 export interface NavButtonProps
   extends ButtonHTMLAttributes<HTMLButtonElement> {
@@ -11,6 +10,7 @@ export interface NavButtonProps
 
 export const NavigationButton = (props: NavButtonProps) => {
   const navigate = useNavigate();
+  const [hover, setHover] = useState(false);
   const handleClick = () => {
     navigate(props.buttonUrl);
   };
@@ -19,26 +19,30 @@ export const NavigationButton = (props: NavButtonProps) => {
       className="container"
       onClick={handleClick}
       style={{
-        cursor: 'pointer',
         position: 'relative',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
         width: '600px',
         margin: 'auto',
+        paddingTop: '30px',
         height: 'auto',
       }}
     >
-      <img
-        src={img}
-        style={{
-          width: '100%',
-        }}
-      ></img>
+      <NavigationButtonImage word={props.buttonText} hover={hover} />
       <div
         style={{
           position: 'absolute',
+          fontSize: '30px',
+          cursor: 'pointer',
+          height: '100%',
+          alignContent: 'center',
+          width: props.buttonText.length < 10 ? '8em' : '15em',
         }}
+        onMouseEnter={() => {
+          setHover(true);
+        }}
+        onMouseLeave={() => setHover(false)}
       >
         {props.buttonText}
       </div>
