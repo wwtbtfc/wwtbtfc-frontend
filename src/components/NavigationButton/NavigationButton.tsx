@@ -1,7 +1,7 @@
 import { ButtonHTMLAttributes } from 'react';
-import StyledNavigationButton from './StyledNavigationButton';
+// import StyledNavigationButton from './StyledNavigationButton';
 import { useNavigate } from 'react-router';
-import StyledButtonBorder from './StyledButtonBorder';
+import img from './assets/NavButton.png';
 
 export interface NavButtonProps
   extends ButtonHTMLAttributes<HTMLButtonElement> {
@@ -15,10 +15,33 @@ export const NavigationButton = (props: NavButtonProps) => {
     navigate(props.buttonUrl);
   };
   return (
-    <StyledButtonBorder>
-      <StyledNavigationButton className="navButton" onClick={handleClick}>
+    <div
+      className="container"
+      onClick={handleClick}
+      style={{
+        cursor: 'pointer',
+        position: 'relative',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        width: '600px',
+        margin: 'auto',
+        height: 'auto',
+      }}
+    >
+      <img
+        src={img}
+        style={{
+          width: '100%',
+        }}
+      ></img>
+      <div
+        style={{
+          position: 'absolute',
+        }}
+      >
         {props.buttonText}
-      </StyledNavigationButton>
-    </StyledButtonBorder>
+      </div>
+    </div>
   );
 };

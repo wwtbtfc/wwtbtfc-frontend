@@ -31,7 +31,7 @@ export const HomePage = () => {
             Dark Button clicked {count2} times
           </Button>
         </div>
-        <NavigationButton buttonText="Hello" buttonUrl="/overview" />
+        <NavigationButton buttonText="How To Play" buttonUrl="/overview" />
       </StyledHomePage>
     </>
   );
