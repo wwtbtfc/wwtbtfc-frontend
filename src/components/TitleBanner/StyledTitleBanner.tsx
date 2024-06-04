@@ -5,7 +5,7 @@ const StyledTitleBanner = styled.header`
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom: 2px solid ${colors.brown};
+  border-bottom: ${(props) => (props.title ? `2px solid ${colors.brown};` : `none;`)} 
   position: relative;
 
   .title {

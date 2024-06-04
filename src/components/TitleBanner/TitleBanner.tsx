@@ -9,7 +9,8 @@ type BannerProps = { title: string };
  */
 export const TitleBanner = (props: BannerProps) => {
   return (
-    <StyledTitleBanner>
+    <StyledTitleBanner title={props.title}>
+
       <h2 className="title">{props.title}</h2>
       <div className="user-container">
         <h5 className="user">username</h5>
