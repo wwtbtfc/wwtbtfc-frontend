@@ -37,7 +37,7 @@ export const NavigationButton = (props: NavButtonProps) => {
           cursor: 'pointer',
           height: '100%',
           alignContent: 'center',
-          width: props.buttonText.length < 10 ? '8em' : '15em',
+          width: props.buttonText.length < 10 ? '6em' : '10em',
         }}
         onMouseEnter={() => {
           setHover(true);
