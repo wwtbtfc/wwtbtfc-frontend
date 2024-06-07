@@ -16,7 +16,6 @@ export const HomePage = () => {
     "because there's not enough room in this house for the both of us",
   ];
   return (
-    <>
       <StyledHomePage>
         <TitleBanner title="" />
         <div>
