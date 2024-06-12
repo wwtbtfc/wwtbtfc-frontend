@@ -22,7 +22,7 @@ export const HomePage = () => {
         <img src={logo} className="logo" alt="WWTBTFC logo" />
       </div>
       <h1>Who Wants to be the Favorite Child?</h1>
-      <h3>
+      <h3 className="plain-text">
         ...
         {
           oneLiners.current[

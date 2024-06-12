@@ -1,17 +1,27 @@
 :root {
-  font-family: 'Single Day', Arial, sans-serif;
+  font-family: var(--highlight-text);
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: #4d2f2e;
-  background-color: #dfdac4;
-  /* background-color: #747bff; */
+  color: var(--brown);
+  background-color: var(--tan);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* colors */
+  --tan: #dfdac4;
+  --brown: #4d2f2e;
+  --darkGray: #707070;
+  --lightGray: #999999;
+  --red: #ff514b;
+
+  /* fonts */
+  --highlight-text: 'Single Day', Arial, sans-serif;
+  --plain-text: Arial, sans-serif;
 }
 
 a {
@@ -35,3 +45,12 @@ h1 {
   line-height: 1.1;
 }
 
+.plain-text {
+  color: var(--lightGray);
+  font-family: var(--plain-text);
+  font-weight: 400;
+}
+
+.highlight-text {
+  font-size: 1.5em;
+}

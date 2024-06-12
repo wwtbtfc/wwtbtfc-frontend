@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import colors from '@ui/styles/colors';
+// import colors from '@ui/styles/colors';
 
 const StyledHomePage = styled.div`
   max-width: 1280px;
@@ -19,12 +19,6 @@ const StyledHomePage = styled.div`
 
   h1 {
     margin-bottom: 0;
-  }
-
-  h3 {
-    color: ${colors.lightGray};
-    font-family: 'Helvetica';
-    font-weight: 400;
   }
 
   .card {
