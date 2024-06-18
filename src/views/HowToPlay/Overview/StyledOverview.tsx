@@ -4,12 +4,18 @@ const StyledOverview = styled.div`
   .container {
     display: flex;
     align-items: center;
-    margin: 0em 0 0.25em 3em;
+    margin: 0 0 0 3em;
+  }
+  #welcome {
+    margin-top: 25px;
   }
   h3 {
+    margin: 0;
     &.highlight-text {
       margin-left: 0.25em;
     }
+    justify-content: center;
+    align-items: center;
   }
   img {
     width: 3em;
@@ -18,6 +24,7 @@ const StyledOverview = styled.div`
     }
     &.image-left {
       margin-right: 1em;
+      width: 10em;
     }
   }
 `;
