@@ -23,7 +23,7 @@ export const NavigationButton = (props: NavButtonProps) => {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        width: '600px',
+        width: '800px',
         margin: 'auto',
         paddingTop: '30px',
         height: 'auto',
