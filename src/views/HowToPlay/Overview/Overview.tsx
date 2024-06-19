@@ -14,12 +14,12 @@ export const Overview = () => {
             style={{ justifyContent: 'center', alignItems: 'center' }}
           >
             Welcome to
-          </h3>
-          <h3
-            className="highlight-text"
-            style={{ alignItems: 'center', justifyContent: 'center' }}
-          >
-            "Who Wants To Be The Favorite Child?"
+            <strong
+              className="highlight-text"
+              style={{ alignItems: 'center', justifyContent: 'center' }}
+            >
+              "Who Wants To Be The Favorite Child?"
+            </strong>
           </h3>
         </div>
         <div className="container">
@@ -28,8 +28,8 @@ export const Overview = () => {
             style={{ justifyContent: 'center', alignItems: 'center' }}
           >
             In this game, you will compete with your siblings for a share of
+            <strong className="highlight-text">"Parental Love"</strong>
           </h3>
-          <h3 className="highlight-text">"Parental Love"</h3>
           <img className="image-right" src={love}></img>
         </div>
         <span>
@@ -37,18 +37,9 @@ export const Overview = () => {
             <img className="image-left" src={questions}></img>
             <h3 className="plain-text">
               Correctly answer a series of multiple-choice
-            </h3>
-
-            <h3 className="highlight-text">questions about your parents</h3>
-
-            <h3
-              className="plain-text"
-              style={{
-                marginLeft: '5px',
-                justifyContent: 'center',
-                alignItems: 'center',
-              }}
-            >
+              <strong className="highlight-text">
+                questions about your parents
+              </strong>
               to earn your share of Parental Love.
             </h3>
           </div>
