@@ -50,14 +50,14 @@ export const NavigationButtonImage = ({
     return (
       <img
         src={medImgHover}
-        style={{
-          width: '100%',
-        }}
+        // style={{
+        //   // width: '100%',
+        // }}
       ></img>
     );
   }
   // long button text
-  else if (word.length > 20 && !hover) {
+  else if (word.length > 24 && !hover) {
     return (
       <img
         src={largeImg}
@@ -66,7 +66,7 @@ export const NavigationButtonImage = ({
         }}
       ></img>
     );
-  } else if (word.length > 20 && hover) {
+  } else if (word.length > 24 && hover) {
     return (
       <img
         src={largeImgHover}

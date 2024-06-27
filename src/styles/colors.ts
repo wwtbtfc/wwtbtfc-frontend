@@ -7,3 +7,5 @@ const colors = {
 };
 
 export default colors;
+
+// look up sass .scss, CSS module, can be imported from JS file, parsed like an object

@@ -1,2 +1,2 @@
 export { Overview } from './Overview';
-export { Home } from '../Home/Home';
+export { Home } from '../Layout/Instructions-Layout';
