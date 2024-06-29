@@ -46,7 +46,7 @@ h1 {
 }
 
 .plain-text {
-  color: var(--lightGray);
+  color: var(--darkGray);
   font-family: var(--plain-text);
   font-weight: 400;
 }

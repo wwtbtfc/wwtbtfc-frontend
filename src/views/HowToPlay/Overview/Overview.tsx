@@ -48,12 +48,13 @@ export const Overview = () => {
           <h3 className="plain-text">
             The sibling with the most Parental Love at the end of the game earns
             the title of the
+            <strong className="highlight-text">Favorite Child!</strong>
           </h3>
-          <h3 className="highlight-text">Favorite Child!</h3>
           <img
             className="image-right"
+            id="win"
             src={win}
-            style={{ width: `15em` }}
+            style={{ width: `12em` }}
           ></img>
         </div>
       </StyledOverview>
