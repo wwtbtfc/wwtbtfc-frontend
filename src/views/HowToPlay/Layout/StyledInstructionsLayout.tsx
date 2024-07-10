@@ -15,8 +15,7 @@ const StyledInstructionsLayout = styled.div`
     justify-content: center;
     align-items: center;
   }
-  margin-left: 3em;
-  margin-right: 3em;
+
   margin-bottom: 3em;
 `;
 
