@@ -4,11 +4,9 @@ const StyledOverview = styled.div`
   .container {
     display: flex;
     align-items: center;
-    margin: 0 0 0 3em;
+    margin: 25px 0 0 3em;
   }
-  #welcome {
-    margin-top: 25px;
-  }
+
   h3 {
     margin: 0;
     &.highlight-text {

@@ -4,8 +4,10 @@ import StyledInstructionsLayout from './StyledInstructionsLayout';
 
 export const Home = () => {
   return (
-    <StyledInstructionsLayout>
-      <Outlet />
+    <>
+      <StyledInstructionsLayout>
+        <Outlet />
+      </StyledInstructionsLayout>
       <KeepReading
         buttons={[
           { path: '/overview', title: 'Overview' },
@@ -16,7 +18,9 @@ export const Home = () => {
         ]}
       ></KeepReading>
 
-      <BackButton />
-    </StyledInstructionsLayout>
+      <StyledInstructionsLayout>
+        <BackButton />
+      </StyledInstructionsLayout>
+    </>
   );
 };

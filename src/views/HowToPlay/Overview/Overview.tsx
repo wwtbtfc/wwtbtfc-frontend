@@ -1,5 +1,7 @@
 import { TitleBanner } from '@ui/components/TitleBanner';
 import StyledOverview from './StyledOverview';
+// todo: reuse the styled coponents to prevent all the wrapping
+
 import love from '../assets/Rules_Love100pct.svg';
 import questions from '../assets/Rules_Questions.svg';
 import win from '../assets/Rules_Win.svg';
