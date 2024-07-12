@@ -3,7 +3,7 @@ import { Outlet } from 'react-router';
 import StyledInstructionsLayout from './StyledInstructionsLayout';
 import { StyledInstructionsBody } from './StyledInstructionsBody';
 
-export const Home = () => {
+export const InstructionsLayout = () => {
   return (
     <>
       <StyledInstructionsLayout>

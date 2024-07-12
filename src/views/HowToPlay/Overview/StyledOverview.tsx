@@ -11,6 +11,9 @@ const StyledOverview = styled.div`
       width: 10em;
     }
   }
+  #welcome {
+    margin-top: 25px;
+  }
 `;
 
 export default StyledOverview;

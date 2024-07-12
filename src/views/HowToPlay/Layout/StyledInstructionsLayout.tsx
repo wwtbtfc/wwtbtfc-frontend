@@ -4,7 +4,6 @@ const StyledInstructionsLayout = styled.div`
   .container {
     display: flex;
     align-items: center;
-    margin: 25px 0 0 3em;
   }
 
   h3 {
@@ -15,8 +14,6 @@ const StyledInstructionsLayout = styled.div`
     justify-content: center;
     align-items: center;
   }
-
-  margin-bottom: 3em;
 `;
 
 export default StyledInstructionsLayout;

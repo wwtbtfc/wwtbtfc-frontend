@@ -20,7 +20,10 @@ export const Overview = () => {
               Welcome to
               <strong
                 className="highlight-text"
-                style={{ alignItems: 'center', justifyContent: 'center' }}
+                style={{
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                }}
               >
                 "Who Wants To Be The Favorite Child?"
               </strong>
@@ -36,18 +39,16 @@ export const Overview = () => {
             </h3>
             <img className="image-right" src={love}></img>
           </div>
-          <span>
-            <div className="container">
-              <img className="image-left" src={questions}></img>
-              <h3 className="plain-text">
-                Correctly answer a series of multiple-choice
-                <strong className="highlight-text">
-                  questions about your parents
-                </strong>
-                to earn your share of Parental Love.
-              </h3>
-            </div>
-          </span>
+          <div className="container">
+            <img className="image-left" src={questions}></img>
+            <h3 className="plain-text">
+              Correctly answer a series of multiple-choice
+              <strong className="highlight-text">
+                questions about your parents
+              </strong>
+              to earn your share of Parental Love.
+            </h3>
+          </div>
           <div className="container">
             <h3 className="plain-text">
               The sibling with the most Parental Love at the end of the game

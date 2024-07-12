@@ -1,3 +1,3 @@
 export { Overview } from './Overview';
 export { Lifelines } from './Lifelines';
-export { Home } from './Layout';
+export { InstructionsLayout } from './Layout';
