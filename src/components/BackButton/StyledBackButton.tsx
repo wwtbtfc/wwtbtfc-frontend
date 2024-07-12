@@ -5,6 +5,7 @@ import colors from '@ui/styles/colors';
 
 export const StyledBackButton = styled(Button)`
   border-radius: 10px;
+
   color: ${colors.tan};
   font-size: 20px;
   background-image: url(${BackLight});

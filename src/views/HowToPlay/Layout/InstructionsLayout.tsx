@@ -1,10 +1,14 @@
 import { KeepReading, BackButton } from '@ui/components';
 import { Outlet } from 'react-router';
+import StyledInstructionsLayout from './StyledInstructionsLayout';
+import { StyledInstructionsBody } from './StyledInstructionsBody';
 
-export const Home = () => {
+export const InstructionsLayout = () => {
   return (
     <>
-      <Outlet />
+      <StyledInstructionsLayout>
+        <Outlet />
+      </StyledInstructionsLayout>
       <KeepReading
         buttons={[
           { path: '/overview', title: 'Overview' },
@@ -15,7 +19,9 @@ export const Home = () => {
         ]}
       ></KeepReading>
 
-      <BackButton />
+      <StyledInstructionsBody>
+        <BackButton />
+      </StyledInstructionsBody>
     </>
   );
 };
