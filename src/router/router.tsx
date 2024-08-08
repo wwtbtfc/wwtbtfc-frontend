@@ -1,6 +1,21 @@
 import { createBrowserRouter } from 'react-router-dom';
 import { HomePage } from '@ui/views';
-import { Overview, Lifelines, InstructionsLayout } from '@ui/views/HowToPlay';
+import {
+  Overview,
+  Lifelines,
+  InstructionsLayout,
+  Hosts1,
+  Hosts2,
+  Hosts3,
+  Contestants1,
+  Contestants2,
+  Contestants3,
+  Scoring1,
+  Scoring2,
+  Scoring3,
+  Scoring4,
+  Scoring5,
+} from '@ui/views/HowToPlay';
 
 const router = createBrowserRouter([
   {
@@ -14,37 +29,35 @@ const router = createBrowserRouter([
       { path: 'overview', element: <Overview /> },
       {
         path: 'hosts',
-        element: <div className="hosts" />,
         children: [
           {
-            path: '1',
-            element: <div />,
+            index: true,
+            element: <Hosts1 />,
           },
           {
             path: '2',
-            element: <div />,
+            element: <Hosts2 />,
           },
           {
             path: '3',
-            element: <div />,
+            element: <Hosts3 />,
           },
         ],
       },
       {
         path: 'contestants',
-        element: <div />,
         children: [
           {
-            path: '1',
-            element: <div />,
+            index: true,
+            element: <Contestants1 />,
           },
           {
             path: '2',
-            element: <div />,
+            element: <Contestants2 />,
           },
           {
             path: '3',
-            element: <div />,
+            element: <Contestants3 />,
           },
         ],
       },
@@ -54,27 +67,26 @@ const router = createBrowserRouter([
       },
       {
         path: 'scoring',
-        element: <div />,
         children: [
           {
-            path: '1',
-            element: <div />,
+            index: true,
+            element: <Scoring1 />,
           },
           {
             path: '2',
-            element: <div />,
+            element: <Scoring2 />,
           },
           {
             path: '3',
-            element: <div />,
+            element: <Scoring3 />,
           },
           {
             path: '4',
-            element: <div />,
+            element: <Scoring4 />,
           },
           {
             path: '5',
-            element: <div />,
+            element: <Scoring5 />,
           },
         ],
       },
