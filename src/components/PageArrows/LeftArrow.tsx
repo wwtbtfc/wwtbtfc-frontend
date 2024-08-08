@@ -3,7 +3,6 @@ import caratLeft from './assets/caret-left.svg';
 import { useNavigate } from 'react-router';
 
 export const LeftArrow = (props: PageArrowsProps) => {
-  console.log('left');
   const navigate = useNavigate();
   const handleClick = () => {
     const nextPage: string = (props.currentPage - 1).toString();

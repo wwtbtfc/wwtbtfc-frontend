@@ -33,7 +33,6 @@ export const PageArrows = (props: PageArrowsProps) => {
       </div>
     );
   } else {
-    console.log('middlepage');
     return (
       <div
         className="container highlight-text"
