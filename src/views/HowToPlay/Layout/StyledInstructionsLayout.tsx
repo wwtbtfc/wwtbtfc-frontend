@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
-const StyledInstructionsLayout = styled.div`
+export const StyledInstructionsLayout = styled.div`
   .container {
     display: flex;
     align-items: center;
+    justify-content: center;
   }
 
   h3 {

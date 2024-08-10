@@ -16,6 +16,7 @@ import {
   Scoring4,
   Scoring5,
 } from '@ui/views/HowToPlay';
+import { HostLayout } from '@ui/views/HowToPlay/Hosts/HostLayout';
 
 const router = createBrowserRouter([
   {
@@ -28,19 +29,24 @@ const router = createBrowserRouter([
     children: [
       { path: 'overview', element: <Overview /> },
       {
-        path: 'hosts',
+        element: <HostLayout />,
         children: [
           {
-            index: true,
-            element: <Hosts1 />,
-          },
-          {
-            path: '2',
-            element: <Hosts2 />,
-          },
-          {
-            path: '3',
-            element: <Hosts3 />,
+            path: 'hosts',
+            children: [
+              {
+                index: true,
+                element: <Hosts1 />,
+              },
+              {
+                path: '2',
+                element: <Hosts2 />,
+              },
+              {
+                path: '3',
+                element: <Hosts3 />,
+              },
+            ],
           },
         ],
       },
