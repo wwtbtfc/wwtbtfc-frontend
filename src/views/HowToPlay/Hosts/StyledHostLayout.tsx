@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
+const centerContainerWidth: number = 60;
+
 export const StyledHostLayout = styled.div`
   .title {
     margin-top: 0.5em;
@@ -8,11 +10,11 @@ export const StyledHostLayout = styled.div`
     display: flex;
   }
   .side-panel {
-    width: 20%;
+    width: ${(100 - centerContainerWidth) / 2}%;
     padding-right: 2em;
   }
   .center-container {
-    width: 60%;
+    width: ${centerContainerWidth}%;
   }
   h3 {
     font-size: 2em;
