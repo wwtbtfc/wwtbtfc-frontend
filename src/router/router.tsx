@@ -15,8 +15,9 @@ import {
   Scoring3,
   Scoring4,
   Scoring5,
+  ContestantsLayout,
+  HostLayout,
 } from '@ui/views/HowToPlay';
-import { HostLayout } from '@ui/views/HowToPlay/Hosts/HostLayout';
 
 const router = createBrowserRouter([
   {
@@ -51,19 +52,24 @@ const router = createBrowserRouter([
         ],
       },
       {
-        path: 'contestants',
+        element: <ContestantsLayout />,
         children: [
           {
-            index: true,
-            element: <Contestants1 />,
-          },
-          {
-            path: '2',
-            element: <Contestants2 />,
-          },
-          {
-            path: '3',
-            element: <Contestants3 />,
+            path: 'contestants',
+            children: [
+              {
+                index: true,
+                element: <Contestants1 />,
+              },
+              {
+                path: '2',
+                element: <Contestants2 />,
+              },
+              {
+                path: '3',
+                element: <Contestants3 />,
+              },
+            ],
           },
         ],
       },

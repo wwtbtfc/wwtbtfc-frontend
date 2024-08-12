@@ -57,3 +57,7 @@ h1 {
   font-family: var(--highlight-text);
   margin: 0 0.15em 0 0.15em;
 }
+
+.urgent {
+  color: var(--red);
+}
