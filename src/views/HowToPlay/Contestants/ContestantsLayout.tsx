@@ -4,16 +4,14 @@ import { StyledInstructionsLayout } from '../Layout';
 
 export const ContestantsLayout = () => {
   return (
-    <>
-      <StyledInstructionsLayout>
-        <StyledContestantsLayout>
-          <div className="container">
-            <h3 className="title">Contestants</h3>
-          </div>
+    <StyledInstructionsLayout>
+      <StyledContestantsLayout>
+        <div className="container">
+          <h3 className="title">Contestants</h3>
+        </div>
 
-          <Outlet></Outlet>
-        </StyledContestantsLayout>
-      </StyledInstructionsLayout>
-    </>
+        <Outlet></Outlet>
+      </StyledContestantsLayout>
+    </StyledInstructionsLayout>
   );
 };
