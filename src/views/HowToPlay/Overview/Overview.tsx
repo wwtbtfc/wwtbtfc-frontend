@@ -1,4 +1,3 @@
-import { TitleBanner } from '@ui/components/TitleBanner';
 import StyledOverview from './StyledOverview';
 import { StyledInstructionsBody } from '../Layout';
 // todo: reuse the styled coponents to prevent all the wrapping
@@ -9,7 +8,6 @@ import win from '../assets/Rules_Win.svg';
 export const Overview = () => {
   return (
     <>
-      <TitleBanner title="How To Play"></TitleBanner>
       <StyledInstructionsBody>
         <StyledOverview>
           <div id="welcome" className="container">

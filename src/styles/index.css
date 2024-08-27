@@ -57,3 +57,19 @@ h1 {
   font-family: var(--highlight-text);
   margin: 0 0.15em 0 0.15em;
 }
+
+.urgent {
+  color: var(--red);
+}
+
+.page-turn {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  svg:hover {
+    fill: var(--lightGray);
+  }
+}
