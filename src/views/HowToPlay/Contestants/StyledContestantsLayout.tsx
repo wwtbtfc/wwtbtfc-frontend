@@ -3,9 +3,6 @@ import styled from 'styled-components';
 const centerContainerWidth: number = 60;
 
 export const StyledContestantsLayout = styled.div`
-  .title {
-    margin-top: 0.5em;
-  }
   .layout-container {
     display: flex;
   }
@@ -20,6 +17,7 @@ export const StyledContestantsLayout = styled.div`
     font-size: 2em;
     &#title {
       display: inline-block;
+      margin-top: 0.5em;
     }
   }
   img {
